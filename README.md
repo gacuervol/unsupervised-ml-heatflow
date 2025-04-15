@@ -23,7 +23,7 @@ import plotly.express as px  # Interactive 3D visualizations
 ```
 ## 📊 Key Visualizations
 ### 1. PCA Projection (Corrected Data)
-![PCA Plot](https://i.imgur.com/heatflow_hist.png)  
+![PCA Plot](https://github.com/gacuervol/unsupervised-ml-heatflow/blob/main/figures/pca.png))  
 Component 1 (39.5%) vs Component 2 (28.4%) showing 3 dominant clusters
 
 ### 2. Geospatial Cluster Distribution
