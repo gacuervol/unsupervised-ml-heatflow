@@ -28,10 +28,19 @@ Component 1 (39.5%) vs Component 2 (28.4%) showing 3 dominant clusters
 
 ### 2. Geospatial Cluster Distribution
 ```python
-px.density_mapbox(df, lat='lat', lon='lon', color='Cluster', 
-                 mapbox_style="carto-darkmatter")
+X = df_No_correct.values
+#etiquetas
+y = ac.fit_predict(X_correct_sc)
+#arbol de decision entrenado
+decision_tree = DecisionTreeClassifier(random_state= 31,
+                                           max_depth= 6,
+                                           max_leaf_nodes= 12)
+
+Tree_trained = decision_tree.fit(X_train[:, :2], y_train)
+#print(X.shape)
+plot_data(X, y, model = Tree_trained)
 ```
-![Cluster Map](https://github.com/gacuervol/oceanic-heatflow/blob/main/figures/PoligonoZona.PNG)  
+![Cluster Map](https://github.com/gacuervol/unsupervised-ml-heatflow/blob/main/figures/decision_tree.png)
 
 ### 3. Decision Tree Structure
 ![Decision Tree](https://github.com/gacuervol/oceanic-heatflow/blob/main/figures/tabla%20pollack.PNG)
