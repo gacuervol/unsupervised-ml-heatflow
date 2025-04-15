@@ -59,14 +59,15 @@ Key Split Variable	Sediment Thickness (<230m)
 │   └── Pollack_1993.csv
 ├── processed/            # Cleaned data
 /Notebooks
-├── 1_Data_Preprocessing.ipynb
+├── Proyecto_Aplicado_Unidad_2.ipynb
 ├── 2_Clustering_Analysis.ipynb  # Main workflow
 ├── 3_Decision_Tree.ipynb
 /scripts
 ├── spatial_correction.py # Geo-statistical functions
-/outputs
-├── models/               # Saved models
-├── figures/              # Visualizations
+/figures
+├── DecisionTreeClassifier.png             
+├── decision_tree.png             # Visualizations
+├── pca.png  
 ```
 ## 🚀 How to Use
 ### 1. Clone repository:
