@@ -43,7 +43,7 @@ plot_data(X, y, model = Tree_trained)
 ![Cluster Map](https://github.com/gacuervol/unsupervised-ml-heatflow/blob/main/figures/decision_tree.png)
 
 ### 3. Decision Tree Structure
-![Decision Tree](https://github.com/gacuervol/oceanic-heatflow/blob/main/figures/tabla%20pollack.PNG)
+![Decision Tree](https://github.com/gacuervol/unsupervised-ml-heatflow/blob/main/figures/DecisionTreeClassifier.png)
 Max depth=6 | Leaf nodes=12 | Gini impurity
 
 ## 🔍 Statistical Insights
