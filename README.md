@@ -53,17 +53,8 @@ Silhouette Score	0.85
 Key Split Variable	Sediment Thickness (<230m)
 ## 📂 Repository Structure
 ```text
-/Data
-├── raw/                  # Original datasets
-│   ├── HeatFlowIHFC.csv
-│   └── Pollack_1993.csv
-├── processed/            # Cleaned data
 /Notebooks
 ├── Proyecto_Aplicado_Unidad_2.ipynb
-├── 2_Clustering_Analysis.ipynb  # Main workflow
-├── 3_Decision_Tree.ipynb
-/scripts
-├── spatial_correction.py # Geo-statistical functions
 /figures
 ├── DecisionTreeClassifier.png             
 ├── decision_tree.png             # Visualizations
